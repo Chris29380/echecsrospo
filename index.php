@@ -4,7 +4,6 @@
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title><?php echo $title; ?></title>
-        <link rel="stylesheet" href="style.css" />
         <link rel="stylesheet" href="style800.css" />
         <link rel="stylesheet" href="style1200.css" />
         <link rel="icon" href="img/logo.png">
