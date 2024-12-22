@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+/* ------------------------------------------------------------------------------------- */
+/* Scrollbar */
+/* ------------------------------------------------------------------------------------- */
+
+::-webkit-scrollbar {
+    width: 3px;
+    height: 3px;
+    margin-left: 3px;
+}
+::-webkit-scrollbar-button {
+  width: 0px;
+  height: 0px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgb(44, 44, 44);
+  border-radius: 50px;
+}
+::-webkit-scrollbar-track {
+  background: #ee7707;
+  border-radius: 43px;
+}
+::-webkit-scrollbar-track:hover {
+  background: white;
+}
+::-webkit-scrollbar-track:active {
+  background: #ee7707;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+
+@media screen and (min-width: 1200px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 99vw;
+        height: 55vw;
+        background-color: rgba(17, 17, 17, 0.966);
+    }
+    
+    /* ------------------------------------------------------------------------------------- */
+    /* Accueil */
+    /* ------------------------------------------------------------------------------------- */
+    
+    body .bgacc {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 99vw;
+        height: 55vw;
+        background-image: url("/img/bgsitewebechecs.png");
+        object-fit: cover;
+        z-index: 100;
+    }
+    
+    body .bgacc .logo {
+        display: flex;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 25vw;
+        height: 25vw;
+        z-index: 100;
+        transition: 300ms;
+    }
+    
+    body .bgacc .logo img {
+        max-width: 25vw;
+        max-height: 25vw;
+        border-radius: 50%;
+        opacity: 0.5;
+        transition: 300ms;
+    }
+    
+    body .bgacc .logo img:hover {
+        opacity: 0.95;
+        box-shadow: 0 0 10px grey;
+        transition: 300ms;
+    }
+    
+    body .bgacc .menuacc {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: flex-end;
+        justify-content: center;
+        width: 30vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        margin-left: 55vw;
+        transition: 300ms;
+        z-index: 100;
+    }
+    
+    body .bgacc .menuacc .menuclose{
+        display: flex;
+    }
+    
+    body .bgacc .menuacc li {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        width: 20vw;
+        height: 5vw;
+        transition: 500ms;
+    }
+    
+    body .bgacc .menuacc li:hover {
+        transform: scale(1.5);
+        cursor: pointer;
+        transition: 500ms;
+    }
+    
+    body .bgacc .menuacc li a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 20vw;
+        height: 5vw;
+        margin-top: 1.25vw;
+        margin-bottom: 1.25vw;
+        font-family: 'Oswald', sans-serif;
+        font-size: calc(10px + 0.390625vw);
+        color: rgba(216, 215, 215, 0.877);
+        text-align: center;
+        text-decoration: none;
+        transition: 300ms;
+    }
+    
+    body .bgacc .menuacc li a:hover {
+        color: orange;
+        background-color: rgba(0,0,0,0.15);
+        border-radius: 0 21px 21px 0;
+        transform: rotate3d(0, 0, 1, -2deg);
+        transition: 600ms;
+    }
+    
+    body .bgacc .menuacc li a i {
+        width: 5vw;
+        color: rgba(255, 255, 255, 0.932);
+    }
+    
+    body .bgacc .menuacc li a i:hover {
+        color: orange;
+    }
+    
+    body .bgacc .footeracc {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        justify-content: flex-start;
+        width: 32vw;
+        margin-right: 65vw;
+    }
+    
+    body .bgacc .footeracc .footeracc1 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 30vw;
+        margin-top: 2vw;
+        margin-bottom: 2vw;
+        border-left-color: grey;
+        border-left-width: 1.5px;
+        border-left-style: solid;
+        transition: 500ms;
+    }
+    
+    body .bgacc .footeracc .footeracc1 .contentfoot {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(113deg, rgba(0,0,0,0.15) 20%, rgba(0,0,0,0.5) 100%);
+        border-radius: 0 21px 21px 0;
+        width: 28vw;
+        padding: 1.5vw;
+        margin-left: 2vw;
+        font-family: 'Oswald', sans-serif;
+        font-size: calc(10px + 0.390625vw);
+        color: rgba(224, 223, 223, 0.877);
+        text-align: justify;
+        transition: 500ms;
+    }
+    
+    body .bgacc .footeracc .footeracc1 .contentfoot:hover {
+        background: rgb(73, 73, 73);
+        background: linear-gradient(113deg, rgba(0,0,0,0) 20%, rgba(73, 73, 73, 0.5) 100%);
+        transform: scale(1.02);
+        cursor: pointer;
+        z-index: 100;
+        transition: 500ms;
+    }
+    
+    body .bgacc h3{
+        font-family: 'Oswald', sans-serif;
+        font-size: calc(10px + 0.390625vw);
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.932);
+        text-decoration: underline;
+        height: 1.5vw;
+    }
+    
+    body .bgacc .footeracc .footeracc1 .contentfoot .br{
+        display: flex;
+        flex-direction: column;
+        height: 1vw;
+        width: 50vw;
+    }
+    
+    body .bgacc .footeracc .footeracc1 .contentfoot .txtfoot{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    body .bgacc a{
+        color: orange;
+        text-decoration: none;
+    }
+    
+    
+}
