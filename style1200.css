@@ -65,15 +65,15 @@
         position: absolute;
         align-items: center;
         justify-content: center;
-        width: 25vw;
-        height: 25vw;
+        width: 15vw;
+        height: 15vw;
         z-index: 100;
         transition: 300ms;
     }
     
     body .bgacc .logo img {
-        max-width: 25vw;
-        max-height: 25vw;
+        max-width: 15vw;
+        max-height: 15vw;
         border-radius: 50%;
         opacity: 0.5;
         transition: 300ms;
@@ -84,9 +84,39 @@
         box-shadow: 0 0 10px grey;
         transition: 300ms;
     }
+
+    body .bgacc .burger {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 5vw;
+        height: 5vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        margin-left: 55vw;
+        transition: 300ms;
+        z-index: 100;
+        padding: 0.5vw;
+        transition: 300ms;
+    }
+
+    body .bgacc .burger svg {
+        width: 3vw;
+        height: 3vw;
+        color: orange;
+        cursor: pointer;
+    }
+
+    body .bgacc .burger:hover {
+        background-color: rgba(150,150,150,0.150);
+        border-radius: 50%;
+        transition: 300ms;
+    }
     
     body .bgacc .menuacc {
-        display: flex;
+        display: none;
         flex-direction: column;
         position: absolute;
         align-items: flex-end;
@@ -101,6 +131,10 @@
     
     body .bgacc .menuacc .menuclose{
         display: flex;
+        width: 5vw;
+        height: 5vw;
+        cursor: pointer;
+        transition: 300ms;
     }
     
     body .bgacc .menuacc li {
@@ -158,9 +192,11 @@
         flex-direction: column;
         position: absolute;
         align-items: center;
-        justify-content: flex-start;
-        width: 32vw;
-        margin-right: 65vw;
+        justify-content: center;
+        width: 25vw;
+        height: 55vw;
+        margin-right: 75vw;
+        background-color: rgba(15,15,15,0.650);
     }
     
     body .bgacc .footeracc .footeracc1 {
@@ -169,9 +205,16 @@
         position: relative;
         align-items: center;
         justify-content: center;
-        width: 30vw;
-        margin-top: 2vw;
-        margin-bottom: 2vw;
+        width: 20vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        border-left-color: orange;
+        border-left-width: 1.5px;
+        border-left-style: solid;
+        transition: 500ms;
+    }
+
+    body .bgacc .footeracc .footeracc1:hover {
         border-left-color: grey;
         border-left-width: 1.5px;
         border-left-style: solid;
@@ -186,12 +229,12 @@
         background: rgb(0,0,0);
         background: linear-gradient(113deg, rgba(0,0,0,0.15) 20%, rgba(0,0,0,0.5) 100%);
         border-radius: 0 21px 21px 0;
-        width: 28vw;
+        width: 18vw;
         padding: 1.5vw;
         margin-left: 2vw;
         font-family: 'Oswald', sans-serif;
-        font-size: calc(10px + 0.390625vw);
-        color: rgba(224, 223, 223, 0.877);
+        font-size: calc(8px + 0.390625vw);
+        color: rgba(126, 126, 126, 0.877);
         text-align: justify;
         transition: 500ms;
     }
@@ -217,8 +260,8 @@
     body .bgacc .footeracc .footeracc1 .contentfoot .br{
         display: flex;
         flex-direction: column;
-        height: 1vw;
-        width: 50vw;
+        height: 0.2vw;
+        width: 18vw;
     }
     
     body .bgacc .footeracc .footeracc1 .contentfoot .txtfoot{

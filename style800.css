@@ -68,6 +68,7 @@
         width: 40vw;
         height: 40vw;
         z-index: 100;
+        margin-bottom: 3vw;
         transition: 300ms;
     }
     
@@ -85,9 +86,38 @@
         box-shadow: 0 0 10px grey;
         transition: 300ms;
     }
+
+    body .bgacc .burger {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 5vw;
+        height: 5vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        transition: 300ms;
+        z-index: 100;
+        padding: 0.5vw;
+        transition: 300ms;
+    }
+
+    body .bgacc .burger svg {
+        width: 3vw;
+        height: 3vw;
+        color: orange;
+        cursor: pointer;
+    }
+
+    body .bgacc .burger:hover {
+        background-color: rgba(150,150,150,0.150);
+        border-radius: 50%;
+        transition: 300ms;
+    }
     
     body .bgacc .menuacc {
-        display: flex;
+        display: none;
         flex-direction: column;
         position: relative;
         align-items: flex-end;

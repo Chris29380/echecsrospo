@@ -38,6 +38,7 @@
                         <div class="txtfoot">
                         Samedi : 17h30 - 19h30
                         </div>
+                        <div class="br"></div>
                   </div>
             </div>
             <div class="footeracc1">
@@ -51,6 +52,7 @@
                         <div class="txtfoot">
                         téléphone : 07 70 01 13 30
                         </div>
+                        <div class="br"></div>
                   </div>
             </div>
       </div>
