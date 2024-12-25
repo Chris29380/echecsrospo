@@ -29,23 +29,19 @@
                   <p>Le club est ouvert à tous, du <b>joueur débutant</b> au <b>joueur expérimenté</b>, à partir de 6 ans.</p>
                   <p>Nous dispensons des cours d'échecs le samedi après-midi, de 17h30 à 19h30.</p>
                   <p>Le club dispose d'une équipe qui évolue en D1 cette saison.</p>
-                  <br/>
-                  <br/>
-                  <p>Pour accéder au local du club d'échecs, veuillez sélectionner "Mairie" sur l'interphone, puis "Appel".</p>
-
+                  <div class="alert">
+                        Pour accéder au local du club d'échecs, veuillez sélectionner <b>"Mairie"</b> sur l'interphone, puis <b>"Appel"</b>.
+                  </div>
                   <div class="buttonacc">
                         <a href="https://www.google.com/maps/place/41+Rue+Hippolyte+le+Bas,+29140+Rosporden/@47.9576676,-3.8313481,17z/data=!3m1!4b1!4m6!3m5!1s0x4810de41e6eb170f:0x4eb4793b2efb4a8d!8m2!3d47.9576677!4d-3.8264772!16s%2Fg%2F11c0_lctqh?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-                              <button>
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#000000" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+                              <button class="itinéraire">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="20" width="15" viewBox="0 0 384 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 128a64 64 0 1 1 0 128 64 64 0 1 1 0-128z"/></svg>
                                     Itinéraire
                               </button>
                         </a>
-                  </div>
-
-                  <div class="buttonacc">
                         <a href="https://www.google.com/maps/place/41+Rue+Hippolyte+le+Bas,+29140+Rosporden/@47.9576676,-3.8313481,17z/data=!3m1!4b1!4m6!3m5!1s0x4810de41e6eb170f:0x4eb4793b2efb4a8d!8m2!3d47.9576677!4d-3.8264772!16s%2Fg%2F11c0_lctqh?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
-                              <button>
-                                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24" viewBox="0 0 24 24"><!--!Font Awesome Free 6.7.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path fill="#000000" d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+                              <button class="adhésion">
+                              <svg xmlns="http://www.w3.org/2000/svg" height="20" width="17.5" viewBox="0 0 448 512"><!--!Font Awesome Free 6.7.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.--><path d="M64 32C28.7 32 0 60.7 0 96L0 416c0 35.3 28.7 64 64 64l320 0c35.3 0 64-28.7 64-64l0-320c0-35.3-28.7-64-64-64L64 32zM200 344l0-64-64 0c-13.3 0-24-10.7-24-24s10.7-24 24-24l64 0 0-64c0-13.3 10.7-24 24-24s24 10.7 24 24l0 64 64 0c13.3 0 24 10.7 24 24s-10.7 24-24 24l-64 0 0 64c0 13.3-10.7 24-24 24s-24-10.7-24-24z"/></svg>
                                     Adhésion
                               </button>
                         </a>

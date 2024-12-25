@@ -545,6 +545,96 @@
         margin-bottom: 1vw;
     }
 
+    body .bgaccpage .content .contentarticle .alert{
+        display: block;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        font-family: 'Oswald', sans-serif;
+        font-size: calc(8px + 0.390625vw);
+        color: rgba(255, 255, 255, 0.877);
+        text-align: justify;
+        font-weight: normal;
+        width: 46vw;
+        padding: 1vw;
+        z-index: 100;
+        margin-top: 3.5vw;
+        margin-bottom: 3.5vw;
+        background-color: rgba(255, 166, 0, 0.023);
+        border-color: orange;
+        border-width: 1.5px;
+        border-style: solid;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+
+    body .bgaccpage .content .contentarticle .alert b{
+        font-weight: bold;
+    }  
+
+    body .bgaccpage .content .contentarticle .buttonacc{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 46vw;
+        padding: 1vw;
+        margin-bottom: 2vw;
+        height: 3vw;
+        z-index: 100;
+        transition: 300ms;
+    }
+
+    body .bgaccpage .content .contentarticle .buttonacc .itinéraire{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 10vw;
+        height: 3vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        transition: 300ms;
+    }
+
+    body .bgaccpage .content .contentarticle .buttonacc .itinéraire:hover {
+        background-color: rgba(0,0,0,0.15);
+        border-radius: 21px;
+        transform: rotate3d(0, 0, 1, -2deg);
+        color: white;
+        cursor: pointer;
+        transition: 600ms;
+    }
+
+    body .bgaccpage .content .contentarticle .buttonacc .itinéraire svg{
+        margin-right: 0.25vw;
+    }
+
+    body .bgaccpage .content .contentarticle .adhésion{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 10vw;
+        height: 3vw;
+        margin-left: 1vw;
+        margin-right: 1vw;
+        transition: 300ms;
+    }
+
+    body .bgaccpage .content .contentarticle .adhésion:hover {
+        background-color: rgba(0,0,0,0.15);
+        border-radius: 21px;
+        transform: rotate3d(0, 0, 1, -2deg);
+        color: white;
+        cursor: pointer;
+        transition: 600ms;
+    }
+
+    body .bgaccpage .content .contentarticle .adhésion svg{
+        margin-right: 0.25vw;
+    }
+
     body .bgaccpage .footeracc {
         display: flex;
         flex-direction: column;
