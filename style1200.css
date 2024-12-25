@@ -274,5 +274,361 @@
         text-decoration: none;
     }
     
+    /* ------------------------------------------------------------------------------------- */
+    /* Club */
+    /* ------------------------------------------------------------------------------------- */
+
+    body .bgaccpage {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 99vw;
+        height: 55vw;
+        background-image: url("/img/bgsitewebechecs.png");
+        object-fit: cover;
+        z-index: 100;
+    }
+
+    body .bgaccpage .logopage {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 5vw;
+        height: 5vw;
+        margin-left: 30vw;
+        margin-top: 2vw;
+        z-index: 100;
+        transition: 300ms;
+    }
+
+    body .bgaccpage .logopage img {
+        max-width: 5vw;
+        max-height: 5vw;
+        border-radius: 50%;
+        opacity: 0.5;
+        transition: 300ms;
+    }
+
+    body .bgaccpage .logopage img:hover {
+        opacity: 0.95;
+        box-shadow: 0 0 10px grey;
+        transition: 300ms;
+    }
+
+    body .bgaccpage .titlepage {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: flex-start;
+        justify-content: center;
+        width: 52vw;
+        height: 5vw;
+        margin-left: 36vw;
+        margin-top: 2vw;
+        z-index: 100;
+    }
+
+    body .bgaccpage .titlepage h1 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: flex-start;
+        font-family: 'Oswald', sans-serif;
+        font-size: calc(18px + 0.390625vw);
+        color: rgba(255, 255, 255, 0.877);
+        padding-left: 2vw;
+        padding-right: 2vw;
+        text-align: justify;
+        border-left-color: orange;
+        border-left-width: 1.5px;
+        border-left-style: solid;
+        cursor: pointer;
+        transition: 500ms;
+    }
+
+    body .bgaccpage .titlepage h1:hover {
+        border-left-color: rgb(255, 255, 255);
+        border-left-width: 1.5px;
+        border-left-style: solid;
+        background-color: rgba(0,0,0,0.15);
+        border-radius: 0 21px 21px 0;
+        cursor: pointer;
+        transition: 500ms;
+    }
     
+    body .bgaccpage .burger {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 2.5vw;
+        height: 2.5vw;
+        margin-left: 95vw;
+        margin-top: 2vw;
+        transition: 300ms;
+        z-index: 100;
+        padding: 0.5vw;
+        transition: 300ms;
+    }
+
+    body .bgaccpage .burger svg {
+        width: 1.5vw;
+        height: 1.5vw;
+        color: orange;
+        cursor: pointer;
+    }
+
+    body .bgaccpage .burger:hover {
+        background-color: rgba(150,150,150,0.150);
+        border-radius: 50%;
+        transition: 300ms;
+    }
+    
+    body .bgaccpage .menuacc {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        align-items: flex-end;
+        justify-content: center;
+        width: 30vw;
+        padding-top: 2vw;
+        padding-bottom: 2vw;
+        margin-left: 55vw;
+        transition: 300ms;
+        z-index: 100;
+    }
+    
+    body .bgaccpage .menuacc .menuclose{
+        display: flex;
+        width: 5vw;
+        height: 5vw;
+        cursor: pointer;
+        transition: 300ms;
+    }
+    
+    body .bgaccpage .menuacc li {
+        display: flex;
+        flex-direction: row;
+        align-items: flex-start;
+        justify-content: center;
+        width: 20vw;
+        height: 5vw;
+        transition: 500ms;
+    }
+    
+    body .bgaccpage .menuacc li:hover {
+        transform: scale(1.5);
+        cursor: pointer;
+        transition: 500ms;
+    }
+    
+    body .bgaccpage .menuacc li a {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        width: 20vw;
+        height: 5vw;
+        margin-top: 1.25vw;
+        margin-bottom: 1.25vw;
+        font-family: 'Oswald', sans-serif;
+        font-size: calc(10px + 0.390625vw);
+        color: rgba(216, 215, 215, 0.877);
+        text-align: center;
+        text-decoration: none;
+        transition: 300ms;
+    }
+    
+    body .bgaccpage .menuacc li a:hover {
+        color: orange;
+        background-color: rgba(0,0,0,0.15);
+        border-radius: 0 21px 21px 0;
+        transform: rotate3d(0, 0, 1, -2deg);
+        transition: 600ms;
+    }
+    
+    body .bgaccpage .menuacc li a i {
+        width: 5vw;
+        color: rgba(255, 255, 255, 0.932);
+    }
+    
+    body .bgaccpage .menuacc li a i:hover {
+        color: orange;
+    }
+
+    body .bgaccpage .content {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: flex-start;
+        justify-content: flex-start;
+        width: 50vw;
+        height: 43vw;
+        margin-left: 30vw;
+        margin-top: 10vw;
+        padding: 1vw;
+        z-index: 100;
+        background-color: rgba(22, 22, 22, 0.74);
+        border-radius: 21px 21px 0 0;
+        font-family: 'Oswald', sans-serif;
+        font-size: calc(10px + 0.390625vw);
+        color: rgba(255, 255, 255, 0.877);
+        text-align: justify;
+        line-height: 0.8vw;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    body .bgaccpage .content .imgarticle {
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 48vw;
+        min-height: 10vw;
+        padding: 1vw;
+        margin-bottom: 1vw;
+        z-index: 100;
+        border-bottom-color: rgba(255, 166, 0, 0.123);
+        border-bottom-width: 1.5px;
+        border-bottom-style: solid;
+        overflow-y: hidden;
+        overflow-x: auto;
+    }
+
+    body .bgaccpage .content .imgarticle img {
+        max-height: 8vw;
+        border-radius: 21px;
+        margin-right: 0.5vw;
+        margin-left: 0.5vw;
+        opacity: 0.5;
+        transition: 300ms;
+    }
+
+    body .bgaccpage .content .imgarticle img:hover {
+        opacity: 0.95;
+        box-shadow: 0 0 10px grey;
+        transition: 300ms;
+    }
+
+    body .bgaccpage .content .contentarticle {
+        display: block;
+        position: relative;
+        align-items: flex-start;
+        justify-content: center;
+        width: 48vw;
+        height: 43vw;
+        padding: 1vw;
+        margin-left: 1vw;
+        z-index: 100;
+    }
+
+    body .bgaccpage .content .contentarticle strong{
+        font-weight: bold;
+        color: orange;
+    }
+    
+    body .bgaccpage .content .contentarticle p{
+        line-height: 1vw;
+        font-family: 'Oswald', sans-serif;
+        font-size: calc(10px + 0.390625vw);
+        color: rgba(255, 255, 255, 0.877);
+        text-align: justify;
+        background-color: rgba(0,0,0,0.05);
+        margin-bottom: 1vw;
+    }
+
+    body .bgaccpage .footeracc {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        align-items: center;
+        justify-content: center;
+        width: 25vw;
+        height: 55vw;
+        margin-right: 75vw;
+        background-color: rgba(15,15,15,0.650);
+    }
+    
+    body .bgaccpage .footeracc .footeracc1 {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        align-items: center;
+        justify-content: center;
+        width: 20vw;
+        margin-top: 1vw;
+        margin-bottom: 1vw;
+        border-left-color: orange;
+        border-left-width: 1.5px;
+        border-left-style: solid;
+        transition: 500ms;
+    }
+
+    body .bgaccpage .footeracc .footeracc1:hover {
+        border-left-color: grey;
+        border-left-width: 1.5px;
+        border-left-style: solid;
+        transition: 500ms;
+    }
+    
+    body .bgaccpage .footeracc .footeracc1 .contentfoot {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        background: rgb(0,0,0);
+        background: linear-gradient(113deg, rgba(0,0,0,0.15) 20%, rgba(0,0,0,0.5) 100%);
+        border-radius: 0 21px 21px 0;
+        width: 18vw;
+        padding: 1.5vw;
+        margin-left: 2vw;
+        font-family: 'Oswald', sans-serif;
+        font-size: calc(8px + 0.390625vw);
+        color: rgba(126, 126, 126, 0.877);
+        text-align: justify;
+        transition: 500ms;
+    }
+    
+    body .bgaccpage .footeracc .footeracc1 .contentfoot:hover {
+        background: rgb(73, 73, 73);
+        background: linear-gradient(113deg, rgba(0,0,0,0) 20%, rgba(73, 73, 73, 0.5) 100%);
+        transform: scale(1.02);
+        cursor: pointer;
+        z-index: 100;
+        transition: 500ms;
+    }
+    
+    body .bgaccpage h3{
+        font-family: 'Oswald', sans-serif;
+        font-size: calc(10px + 0.390625vw);
+        text-transform: uppercase;
+        color: rgba(255, 255, 255, 0.932);
+        text-decoration: underline;
+        height: 1.5vw;
+    }
+    
+    body .bgaccpage .footeracc .footeracc1 .contentfoot .br{
+        display: flex;
+        flex-direction: column;
+        height: 0.2vw;
+        width: 18vw;
+    }
+    
+    body .bgaccpage .footeracc .footeracc1 .contentfoot .txtfoot{
+        display: flex;
+        flex-direction: row;
+    }
+    
+    body .bgaccpage a{
+        color: orange;
+        text-decoration: none;
+    }
 }

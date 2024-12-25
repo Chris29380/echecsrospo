@@ -29,7 +29,7 @@
             if($urlreq == "/index.php?club") {
                 $title = "Fianchetto du Roi - Le Club";
                 include("header.php");
-                include("leclub.php");
+                include("club.php");
             }
             if($urlreq == "/index.php?chess") {
                 $title = "Fianchetto du Roi - Le Club";
