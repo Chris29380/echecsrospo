@@ -11,10 +11,10 @@ function hidemenu() {
 
 function showmenupage() {
     $("body .bgaccpage .burger").css("display", "none");
-    $("body .bgaccpage .menuacc").css("display", "flex");
+    $("body .bgaccpage .menuart").css("display", "flex");
 }
 
 function hidemenupage() {
     $("body .bgaccpage .burger").css("display", "flex");
-    $("body .bgaccpage .menuacc").css("display", "none");
+    $("body .bgaccpage .menuart").css("display", "none");
 }   

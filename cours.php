@@ -1,39 +1,49 @@
 
 <div class="bgaccpage">
-      <div class="headerpage">
-            <div class="logopage">
-                  <a href="/index.php"><img src="/img/logo.png" alt="Fianchetto du Roi"/></a>
-            </div>
-            <div class="titlepage">
-                  <?php 
-                  $urlreq = $_SERVER['REQUEST_URI'];
-                  $titlearticle = "Club d'Echecs de Rosporden";
-                  echo "
-                        <a href=$urlreq>
-                              <h1>$titlearticle</h1>
-                        </a>
-                  ";
-                  ?>
-            </div>
+      <div class="logopage">
+            <a href="/index.php"><img src="/img/logo.png" alt="Fianchetto du Roi"/></a>
+      </div>
+      <div class="titlepage">
+            <?php 
+                $urlreq = $_SERVER['REQUEST_URI'];
+                $titlearticle = "Apprendre les Echecs à Rosporden";
+                echo "
+                    <a href=$urlreq>
+                        <h1>$titlearticle</h1>
+                    </a>
+                ";
+            ?>
       </div>
       <?php include("menu.php"); ?>
 
       <div class="content">
             <div class="imgarticle" id="imgarticle">
                   <script type="text/javascript">
-                        loadPicture("/resources/imgs/facadeclub.png", "club");
+                        loadPicture("/resources/imgs/apprendre.jpg", "apprendre les echecs");
                   </script>
             </div>
             <div class="contentarticle" id="contentarticle">
 
                   <p>Le <b>club d'échecs de Rosporden</b> est un club familial, fondé en 2014.</p>
-                  <p>Nous nous retrouvons pour <b>jouer</b> aux échecs, <b>apprendre</b> et <b>progresser</b> ensemble, le jeudi soir et la samedi après-midi.</p>
-                  <p>Le club est ouvert à tous, du <b>joueur débutant</b> au <b>joueur expérimenté</b>, à partir de 6 ans.</p>
                   <p>Nous dispensons des cours d'échecs le samedi après-midi, de 17h30 à 19h30.</p>
-                  <p>Le club dispose d'une équipe qui évolue en D1 cette saison.</p>
+                  <p>Les cours sont ouverts à tous, à partir de 6 ans.</p>
+                  <p>Nous abordons les thèmes suivants :</p>
+                  <ul>
+                        <li>Les principes fondamentaux</li>
+                        <li>Les Mats élémentaires</li>
+                        <li>Les ouvertures</li>
+                        <li>Les finales</li>
+                        <li>La tactique</li>
+                        <li>La stratégie</li>
+                        <li>etc.</li>
+                  </ul>
+                  <br>
+                  <br>
                   <div class="alert">
-                        <p>Adresse du club : 41 Rue Hippolyte le Bas, 29140 Rosporden</p>
-                        <p>Pour accéder au local du club d'échecs, veuillez sélectionner <b>"Mairie"</b> sur l'interphone, puis <b>"Appel"</b>.</p>
+                        Adresse du club : 41 Rue Hippolyte le Bas, 29140 Rosporden
+                        <br/>
+                        <br/>
+                        Pour accéder au local du club d'échecs, veuillez sélectionner <b>"Mairie"</b> sur l'interphone, puis <b>"Appel"</b>.
                   </div>
                   <div class="buttonacc">
                         <a href="https://www.google.com/maps/place/41+Rue+Hippolyte+le+Bas,+29140+Rosporden/@47.9576676,-3.8313481,17z/data=!3m1!4b1!4m6!3m5!1s0x4810de41e6eb170f:0x4eb4793b2efb4a8d!8m2!3d47.9576677!4d-3.8264772!16s%2Fg%2F11c0_lctqh?entry=ttu&g_ep=EgoyMDI0MTIxMS4wIKXMDSoASAFQAw%3D%3D" target="_blank">
