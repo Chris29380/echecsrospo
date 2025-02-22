@@ -1,18 +1,20 @@
 
 <div class="bgaccpage">
-      <div class="logopage">
-            <a href="/index.php"><img src="/img/logo.png" alt="Fianchetto du Roi"/></a>
-      </div>
-      <div class="titlepage">
-            <?php 
-                $urlreq = $_SERVER['REQUEST_URI'];
-                $titlearticle = "Club d'Echecs de Rosporden - Actualités";
-                echo "
-                    <a href=$urlreq>
-                        <h1>$titlearticle</h1>
-                    </a>
-                ";
-            ?>
+      <div class="headerpage">
+            <div class="logopage">
+                  <a href="/index.php"><img src="/img/logo.png" alt="Fianchetto du Roi"/></a>
+            </div>
+            <div class="titlepage">
+                  <?php 
+                  $urlreq = $_SERVER['REQUEST_URI'];
+                  $titlearticle = "Club d'Echecs de Rosporden - Actualités";
+                  echo "
+                        <a href=$urlreq>
+                              <h1>$titlearticle</h1>
+                        </a>
+                  ";
+                  ?>
+            </div>
       </div>
       <?php include("menu.php"); ?>
 

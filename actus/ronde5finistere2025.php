@@ -23,13 +23,15 @@
             $titlearticle = "Le Fianchetto du Roi accueille la 5ème ronde du tournoi du Finistère";
             $html1="
                   <div class='bgaccpage'>
-                        <div class='logopage'>
-                              <a href='/index.php'><img src='/img/logo.png' alt='Fianchetto du Roi'/></a>
-                        </div>
-                        <div class='titlepage'>
-                              <a href=$urlreq>
-                                    <h1>$titlearticle</h1>
-                              </a>
+                        <div class='headerpage'>
+                              <div class='logopage'>
+                                    <a href='/index.php'><img src='/img/logo.png' alt='Fianchetto du Roi'/></a>
+                              </div>
+                              <div class='titlepage'>
+                                    <a href=$urlreq>
+                                          <h1>$titlearticle</h1>
+                                    </a>
+                              </div>
                         </div>
             ";
             echo $html1;

@@ -2,8 +2,8 @@
 
       $urlreq = $_SERVER['REQUEST_URI'];
       if ($urlreq == '/index.php?actualites') {
-            $titlearticle = "Le Fianchetto du Roi accueille une ronde du tournoi du Finistère";
-            $description = "Le club d'échecs de Rosporden accueille une ronde du tournoi du Finistère organisé par le CD29, le samedi 22 mars au centre culturel de rosporden.";
+            $titlearticle = "Le Tournoi d'échecs des 3 Etangs 2025";
+            $description = "Le club d'échecs de Rosporden a organisé le 1er rapide des 3 étangs, le dimanche 05 janvier 2025 au centre culturel de rosporden.";
             $htmlshort="
                   <div class='shortart'>
                         <div class='imgshortart' id='imgshortart'>
@@ -23,13 +23,15 @@
             $titlearticle = "Le Tournoi des 3 Etangs 2025";
             $html1="
                   <div class='bgaccpage'>
-                        <div class='logopage'>
-                              <a href='/index.php'><img src='/img/logo.png' alt='Tournoi Echecs des 3 Etangs 2025'/></a>
-                        </div>
-                        <div class='titlepage'>
-                              <a href=$urlreq>
-                                    <h1>$titlearticle</h1>
-                              </a>
+                        <div class='headerpage'>
+                              <div class='logopage'>
+                                    <a href='/index.php'><img src='/img/logo.png' alt='Tournoi Echecs des 3 Etangs 2025'/></a>
+                              </div>
+                              <div class='titlepage'>
+                                    <a href=$urlreq>
+                                          <h1>$titlearticle</h1>
+                                    </a>
+                              </div>
                         </div>
             ";
             echo $html1;
