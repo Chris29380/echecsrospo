@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: 
+Disallow: /js/
+Disallow: /pgnweb/
+Disallow: /nginx/
+Sitemap: https://echecsrosporden.org/sitemap.xml
