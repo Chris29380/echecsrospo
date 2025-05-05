@@ -8,7 +8,7 @@
                   <div class='shortart'>
                         <div class='imgshortart' id='imgshortart'>
                               <a href='/index.php?actualites?tournoiamicaltrimartolod'>
-                                    <img src='/resources/imgs/affichetrimartolod.png' alt='Tournoi Amicale 31/05 Brasserie Tri martolod - Concarneau.'/>
+                                    <img src='/resources/imgs/tournoitrimartolod3105.png' alt='Tournoi Amicale 31/05 Brasserie Tri martolod - Concarneau.'/>
                               </a>
                         </div>
                         <div class='contentshortart' id='contentshortart'>

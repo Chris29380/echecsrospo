@@ -160,6 +160,9 @@
             if($urlreq == "/index.php?actualites?ronde5finistere2025") {
                 include("./actus/ronde5finistere2025.php");
             }
+            if($urlreq == "/index.php?actualites?tournoiamicaltrimartolod") {
+                include("./actus/tournoiamicaltrimartolod.php");
+            }
         ?>        
     </body>
 </html>
