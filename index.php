@@ -131,7 +131,34 @@
 
     <body>
         <?php
+
+            $listepage = array(
+                "club" => "club",
+                "cours" => "cours",
+                "actualites" => "actualites",
+                "contact" => "contact",
+                "rapide3etangs2025" => "rapide3etangs2025",
+                "rapide3etangs" => "rapide3etangs",    
+                "actualites?3etangs2025" => "./actus/3etangs2025",
+                "actualites?ronde5finistere2025" => "./actus/ronde5finistere2025",
+                "actualites?tournoiamicaltrimartolod" => "./actus/tournoiamicaltrimartolod",
+            )
+                        
             $urlreq = $_SERVER['REQUEST_URI'];
+            $longch = strlen($urlreq);
+            if ($longch === 1 || $longch === 10) {
+                include("accueil.php");
+            } elseif ($longch > 10) {
+                foreach ($listepage as $key => $value) {
+                    $position = stripos($urlreq, $key);
+                    if ($position === 12) {                     
+                        include($value.".php");
+                        break;
+                    }
+                }
+            }
+
+            /*
             if($urlreq == "/" || $urlreq == "/index.php"){
                 include("accueil.php");
             }
@@ -162,7 +189,7 @@
             }
             if($urlreq == "/index.php?actualites?tournoiamicaltrimartolod") {
                 include("./actus/tournoiamicaltrimartolod.php");
-            }
+            }*/
         ?>        
     </body>
 </html>
