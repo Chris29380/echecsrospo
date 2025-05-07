@@ -131,7 +131,7 @@
 
     <body>
         <?php
-
+    /*
             $listepage = array(
                 "club" => "club",
                 "cours" => "cours",
@@ -147,7 +147,7 @@
             $urlreq = $_SERVER['REQUEST_URI'];
             $longch = strlen($urlreq);
             echo $longch;
-            
+
             if ($longch === 1 || $longch === 10) {
                 include("accueil.php");
             } elseif ($longch > 10) {
@@ -159,8 +159,8 @@
                     }
                 }
             }
-
-            /*
+    */
+            
             if($urlreq == "/" || $urlreq == "/index.php"){
                 include("accueil.php");
             }
@@ -191,7 +191,7 @@
             }
             if($urlreq == "/index.php?actualites?tournoiamicaltrimartolod") {
                 include("./actus/tournoiamicaltrimartolod.php");
-            }*/
+            }
         ?>        
     </body>
 </html>
