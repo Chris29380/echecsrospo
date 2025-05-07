@@ -146,6 +146,8 @@
                         
             $urlreq = $_SERVER['REQUEST_URI'];
             $longch = strlen($urlreq);
+            echo $longch;
+            
             if ($longch === 1 || $longch === 10) {
                 include("accueil.php");
             } elseif ($longch > 10) {
