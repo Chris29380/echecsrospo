@@ -160,7 +160,51 @@
                 }
             }
     */
-            
+
+            $listepage = array(
+                "club" => "club",
+                "cours" => "cours",
+                "actualites" => "actualites",
+                "contact" => "contact",
+                "rapide3etangs2025" => "rapide3etangs2025",
+                "rapide3etangs" => "rapide3etangs",    
+            );
+
+            $listeactus = array(
+                "3etangs2025" => "3etangs2025",
+                "ronde5finistere2025" => "ronde5finistere2025",
+                "tournoiamicaltrimartolod" => "tournoiamicaltrimartolod",
+            );
+
+            $urlreq = $_SERVER['REQUEST_URI'];
+            $urlP = parse_url($urlreq);
+            if (isset($urlP['query'])) {
+                $target = $urlP['query'];
+
+                foreach ($listepage as $key => $value) {
+                    $position = stripos($urlreq, $key);      
+                    if ($position > 1) {
+                        include($value.".php");
+                        break;
+                    }
+                }
+                
+                $findActus = stripos($urlreq, "actualites&");
+                if ($findActus && $findActus >= 1) {
+                    foreach ($listeactus as $key => $value) {
+                        $position2 = stripos($urlreq, $key);
+                        if ($position2 && $position2 >= 1) {
+                            include("./actus/".$value.".php");
+                            break;
+                        }
+                    }
+                }
+
+            } else  {
+                include("accueil.php");
+            }
+
+            /*
             if($urlreq == "/" || $urlreq == "/index.php"){
                 include("accueil.php");
             }
@@ -192,6 +236,7 @@
             if($urlreq == "/index.php?actualites?tournoiamicaltrimartolod") {
                 include("./actus/tournoiamicaltrimartolod.php");
             }
+            */
         ?>        
     </body>
 </html>
