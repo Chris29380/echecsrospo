@@ -178,29 +178,47 @@
 
             $urlreq = $_SERVER['REQUEST_URI'];
             $urlP = parse_url($urlreq);
+            $findCible = false;
             if (isset($urlP['query'])) {
                 $target = $urlP['query'];
-
-                foreach ($listepage as $key => $value) {
-                    $position = stripos($urlreq, $key);      
-                    if ($position > 1) {
-                        include($value.".php");
-                        break;
+                $path = $urlP['path'];
+                echo "target : $target";
+                echo "path : $path";                
+                if ($path == "" || $path == "/" || $path != "/index.php") {
+                    include("accueil.php");
+                    $findCible = true;
+                } 
+                if ($path == "/index.php") {                   
+                    $findActus = stripos($target, "actualites&");
+                    if ($findActus === 0) {                        
+                        foreach ($listeactus as $key => $value) {
+                            $position2 = stripos($target, $key);
+                            if ($position2 === 11) {
+                                $findCible = true;
+                                include("./actus/".$value.".php");
+                                break;
+                            }
+                        }                        
+                    } else {
+                        foreach ($listepage as $key => $value) {
+                            $position = stripos($target, $key);
+                            if ($position === 0) {
+                                $findCible = true;
+                                include($value.".php");
+                                break;
+                            }
+                        }
+                    }      
+                    if ($findCible === false) {
+                        include("accueil.php");
                     }
+                    
+                    
                 }
                 
-                $findActus = stripos($urlreq, "actualites&");
-                if ($findActus && $findActus >= 1) {
-                    foreach ($listeactus as $key => $value) {
-                        $position2 = stripos($urlreq, $key);
-                        if ($position2 && $position2 >= 1) {
-                            include("./actus/".$value.".php");
-                            break;
-                        }
-                    }
-                }
 
             } else  {
+                $findCible = true;
                 include("accueil.php");
             }
 
