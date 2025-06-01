@@ -27,16 +27,35 @@
                 $desc="Club d'échecs de rosporden, Fianchetto du Roi, ouvert le jeudi soir et samedi après-midi pour les cours. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
                 $keywords="club, echecs, échecs, rosporden,ffe, club bretagne, cours échecs, apprendre les échecs, finistère, bretagne";
                 $robots="index, follow";
-                $ogimage="https://echecsrosporden.org/resources/img/facadeclub.png";
+                $ogimage="https://echecsrosporden.org/resources/imgs/facadeclub.png";
                 $ogurl="https://echecsrosporden.org/index.php?club";
                 $ogdesc="Club d'échecs de rosporden, Fianchetto du Roi, ouvert le jeudi soir et samedi après-midi pour les cours. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
                 $ogtitle="Fianchetto du Roi - club d'échecs de Rosporden";
                 $ogtype="website";
                 $ogsitename="Fianchetto du Roi - club d'échecs de Rosporden";
                 $oglocale="fr_FR";
-                $fbimage="https://echecsrosporden.org/resources/img/facadeclub.png";
+                $fbimage="https://echecsrosporden.org/resources/imgs/facadeclub.png";
                 $fburl="https://echecsrosporden.org/index.php?club";
                 $fbcaption="Fianchetto du Roi - club d'échecs de Rosporden - Accueil";
+                $fbtype="website";
+                $fbsitename="Fianchetto du Roi - club d'échecs de Rosporden";
+                $fblocale="fr_FR";
+            }
+            if($urlreq == "/index.php?cours") {
+                $title = "Fianchetto du Roi - Les Cours";
+                $desc="Club d'échecs de rosporden, Fianchetto du Roi, dispense des cours pour les débutants le samedi de 17h30 à 19h. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
+                $keywords="club, echecs, échecs, rosporden,ffe, club bretagne, cours échecs, apprendre les échecs, finistère, bretagne";
+                $robots="index, follow";
+                $ogimage="https://echecsrosporden.org/resources/imgs/apprendre.png";
+                $ogurl="https://echecsrosporden.org/index.php?cours";
+                $ogdesc="Club d'échecs de rosporden, Fianchetto du Roi, ouvert le jeudi soir et samedi après-midi pour les cours. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
+                $ogtitle="Fianchetto du Roi - club d'échecs de Rosporden";
+                $ogtype="website";
+                $ogsitename="Fianchetto du Roi - club d'échecs de Rosporden";
+                $oglocale="fr_FR";
+                $fbimage="https://echecsrosporden.org/resources/imgs/apprendre.png";
+                $fburl="https://echecsrosporden.org/index.php?cours";
+                $fbcaption="Fianchetto du Roi - club d'échecs de Rosporden - Les Cours";
                 $fbtype="website";
                 $fbsitename="Fianchetto du Roi - club d'échecs de Rosporden";
                 $fblocale="fr_FR";
@@ -46,14 +65,14 @@
                 $desc="Tournoi rapide d'échecs organisé par le club d'échecs de rosporden, le 1er dimanche de Janvier. Tournoi principal et tournoi jeunes. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
                 $keywords="tournoi échecs, tournoi rapide, club, echecs, échecs, rosporden,ffe, club bretagne, cours échecs, apprendre les échecs, finistère, bretagne";
                 $robots="index, follow";
-                $ogimage="https://echecsrosporden.org/resources/img/affiche2025.png";
+                $ogimage="https://echecsrosporden.org/resources/imgs/affiche2025.png";
                 $ogurl="https://echecsrosporden.org/index.php?rapide3etangs";
                 $ogdesc="Tournoi rapide d'échecs organisé par le club d'échecs de rosporden, le 1er dimanche de Janvier. Tournoi principal et tournoi jeunes. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
                 $ogtitle="Fianchetto du Roi - Le Rapide des 3 Etangs";
                 $ogtype="website";
                 $ogsitename="Fianchetto du Roi - club d'échecs de Rosporden";
                 $oglocale="fr_FR";
-                $fbimage="https://echecsrosporden.org/resources/img/affiche2025.png";
+                $fbimage="https://echecsrosporden.org/resources/imgs/affiche2025.png";
                 $fburl="https://echecsrosporden.org/index.php?rapide3etangs";
                 $fbcaption="Fianchetto du Roi - Le Rapide des 3 Etangs";
                 $fbtype="website";
@@ -65,14 +84,14 @@
                 $desc="Tournoi rapide d'échecs organisé par le club d'échecs de rosporden le Dimanche 05/01/2025Tournoi principal et tournoi jeunes. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
                 $keywords="tournoi échecs, tournoi rapide, club, echecs, échecs, rosporden,ffe, club bretagne, cours échecs, apprendre les échecs, finistère, bretagne";
                 $robots="index, follow";
-                $ogimage="https://echecsrosporden.org/resources/img/affiche2025.png";
+                $ogimage="https://echecsrosporden.org/resources/imgs/affiche2025.png";
                 $ogurl="https://echecsrosporden.org/index.php?rapide3etangs2025";
                 $ogdesc="Tournoi rapide d'échecs organisé par le club d'échecs de rosporden, le 1er dimanche de Janvier. Tournoi principal et tournoi jeunes. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
                 $ogtitle="Edition 2025 - Fianchetto du Roi - Le Rapide des 3 Etangs";
                 $ogtype="website";
                 $ogsitename="Fianchetto du Roi - club d'échecs de Rosporden";
                 $oglocale="fr_FR";
-                $fbimage="https://echecsrosporden.org/resources/img/affiche2025.png";
+                $fbimage="https://echecsrosporden.org/resources/imgs/affiche2025.png";
                 $fburl="https://echecsrosporden.org/index.php?rapide3etangs2025";
                 $fbcaption="Edition 2025 - Fianchetto du Roi - Le Rapide des 3 Etangs";
                 $fbtype="website";
@@ -84,20 +103,21 @@
                 $desc="Les Actualités échiquèennes locales. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
                 $keywords="tournois, club, echecs, échecs, rosporden,ffe, club bretagne, cours échecs, apprendre les échecs, actualités, finistère, bretagne";
                 $robots="index, follow";
-                $ogimage="https://echecsrosporden.org/resources/img/affiche2025.png";
-                $ogurl="https://echecsrosporden.org/index.php?rapide3etangs2025";
-                $ogdesc="Tournoi rapide d'échecs organisé par le club d'échecs de rosporden, le 1er dimanche de Janvier. Tournoi principal et tournoi jeunes. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
-                $ogtitle="Edition 2025 - Fianchetto du Roi - Le Rapide des 3 Etangs";
+                $ogimage="https://echecsrosporden.org/resources/imgs/affiche2025.png";
+                $ogurl="https://echecsrosporden.org/index.php?actualites";
+                $ogdesc="Club d'échecs de Rosporden, Les actualités échiquéennes. Nous contacter au 07 70 01 13 30 ou par mail : fianchettoduroi@gmail.com";
+                $ogtitle="Fianchetto du Roi - Les Actualités";
                 $ogtype="website";
                 $ogsitename="Fianchetto du Roi - club d'échecs de Rosporden";
                 $oglocale="fr_FR";
-                $fbimage="https://echecsrosporden.org/resources/img/affiche2025.png";
-                $fburl="https://echecsrosporden.org/index.php?rapide3etangs2025";
-                $fbcaption="Edition 2025 - Fianchetto du Roi - Le Rapide des 3 Etangs";
+                $fbimage="https://echecsrosporden.org/resources/imgs/affiche2025.png";
+                $fburl="https://echecsrosporden.org/index.php?actualites";
+                $fbcaption="Fianchetto du Roi - Les Actualités Echiquéennes";
                 $fbtype="website";
                 $fbsitename="Fianchetto du Roi - club d'échecs de Rosporden";
                 $fblocale="fr_FR";
             }
+            include('headactus.php');
         ?>      
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -131,35 +151,6 @@
 
     <body>
         <?php
-    /*
-            $listepage = array(
-                "club" => "club",
-                "cours" => "cours",
-                "actualites" => "actualites",
-                "contact" => "contact",
-                "rapide3etangs2025" => "rapide3etangs2025",
-                "rapide3etangs" => "rapide3etangs",    
-                "actualites?3etangs2025" => "./actus/3etangs2025",
-                "actualites?ronde5finistere2025" => "./actus/ronde5finistere2025",
-                "actualites?tournoiamicaltrimartolod" => "./actus/tournoiamicaltrimartolod",
-            )
-                        
-            $urlreq = $_SERVER['REQUEST_URI'];
-            $longch = strlen($urlreq);
-            echo $longch;
-
-            if ($longch === 1 || $longch === 10) {
-                include("accueil.php");
-            } elseif ($longch > 10) {
-                foreach ($listepage as $key => $value) {
-                    $position = stripos($urlreq, $key);
-                    if ($position === 12) {                     
-                        include($value.".php");
-                        break;
-                    }
-                }
-            }
-    */
 
             $listepage = array(
                 "club" => "club",
@@ -174,6 +165,7 @@
                 "3etangs2025" => "3etangs2025",
                 "ronde5finistere2025" => "ronde5finistere2025",
                 "tournoiamicaltrimartolod" => "tournoiamicaltrimartolod",
+                "rapidefouesnant2025" => "rapidefouesnant2025",
             );
 
             $urlreq = $_SERVER['REQUEST_URI'];
@@ -222,39 +214,6 @@
                 include("accueil.php");
             }
 
-            /*
-            if($urlreq == "/" || $urlreq == "/index.php"){
-                include("accueil.php");
-            }
-            if($urlreq == "/index.php?club") {
-                include("club.php");
-            }
-            if($urlreq == "/index.php?cours") {
-                include("cours.php");
-            }
-            if($urlreq == "/index.php?rapide3etangs") {
-                include("rapide3etangs.php");
-            }
-            if($urlreq == "/index.php?rapide3etangs2025") {
-                include("rapide3etangs2025.php");
-            }
-            if($urlreq == "/index.php?actualites") {
-                include("actualites.php");
-            }
-            if($urlreq == "/index.php?contact") {
-                include("contact.php");
-            }
-
-            if($urlreq == "/index.php?actualites?3etangs2025") {
-                include("./actus/3etangs2025.php");
-            }
-            if($urlreq == "/index.php?actualites?ronde5finistere2025") {
-                include("./actus/ronde5finistere2025.php");
-            }
-            if($urlreq == "/index.php?actualites?tournoiamicaltrimartolod") {
-                include("./actus/tournoiamicaltrimartolod.php");
-            }
-            */
         ?>        
     </body>
 </html>

@@ -3,7 +3,7 @@
 <url>
   <loc>http://echecsrosporden.org/index.php</loc>
   <changefreq>monthly</changefreq>
-  <lastmod>2025-02-22</lastmod>
+  <lastmod>2025-06-01</lastmod>
 </url>
 <url>
   <loc>http://echecsrosporden.org/index.php?club</loc>
@@ -48,5 +48,10 @@
 <url>
   <loc>http://echecsrosporden.org/index.php?actualites?tournoiamicaltrimartolod</loc>
   <changefreq>monthly</changefreq>
-  <lastmod>2025-05-06</lastmod>
+  <lastmod>2025-06-01</lastmod>
+</url>
+<url>
+  <loc>http://echecsrosporden.org/index.php?actualites?rapidefouesnant2025</loc>
+  <changefreq>monthly</changefreq>
+  <lastmod>2025-06-01</lastmod>
 </url>

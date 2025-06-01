@@ -32,12 +32,12 @@
                         while($i < $num){
                               if($liste_rep[$i] != "." && $liste_rep[$i] != ".."){
                                     filemtime("./actus/".$liste_rep[$i]);
-                                    $linerep = ["name" => $liste_rep[$i], "mtime" => filemtime("./actus/".$liste_rep[$i])];
+                                    $linerep = ["mtime" => filemtime("./actus/".$liste_rep[$i]), "name" => $liste_rep[$i]];
                                     array_push($filesord, $linerep);
                               }
                         $i++;
                         }
-                        arsort($filesord);
+                        usort($filesord, function ($a, $b) {return $a['mtime'] > $b['mtime'];});
                         if(count($filesord) > 0){
                               $i = count($filesord);
                               while($i >= 0){

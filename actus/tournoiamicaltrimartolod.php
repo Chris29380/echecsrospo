@@ -17,7 +17,7 @@
                         </div>
                   </div>
             ";
-            echo $htmlshort;
+            echo $htmlshort; 
       } 
       if ($urlreq != '/index.php?actualites') {
             $titlearticle = "Tournoi Amicale 31/05 Brasserie Tri martolod - Concarneau";
